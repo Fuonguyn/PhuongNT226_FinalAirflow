@@ -9,6 +9,8 @@
     <img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/e3517070-b5c1-4544-916f-f5fa07c584de" />
     <img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/f159e2f4-afeb-4a73-8d56-e944ad37e1d1" />
 
+---
+
 ### 1. Tech Stack
 * Python for ETL scripts
 * PostgreSQL (hosted on **Render** platform - free web services and datastores)
