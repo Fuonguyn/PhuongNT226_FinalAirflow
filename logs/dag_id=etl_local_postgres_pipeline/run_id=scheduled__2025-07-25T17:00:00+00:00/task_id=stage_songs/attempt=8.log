@@ -1,0 +1,46 @@
+[2025-07-26T00:54:39.992+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-26T00:54:40.829+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.stage_songs scheduled__2025-07-25T17:00:00+00:00 [queued]>
+[2025-07-26T00:54:41.062+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.stage_songs scheduled__2025-07-25T17:00:00+00:00 [queued]>
+[2025-07-26T00:54:41.062+0700] {taskinstance.py:2306} INFO - Starting attempt 8 of 11
+[2025-07-26T00:54:41.446+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): stage_songs> on 2025-07-25 17:00:00+00:00
+[2025-07-26T00:54:41.454+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_local_postgres_pipeline', 'stage_songs', 'scheduled__2025-07-25T17:00:00+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_pjt.py', '--cfg-path', '/tmp/tmpd6v_rdop']
+[2025-07-26T00:54:41.456+0700] {standard_task_runner.py:91} INFO - Job 215: Subtask stage_songs
+[2025-07-26T00:54:41.456+0700] {logging_mixin.py:188} WARNING - /home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=3092) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T00:54:41.456+0700] {standard_task_runner.py:63} INFO - Started process 3098 to run task
+[2025-07-26T00:54:44.051+0700] {task_command.py:426} INFO - Running <TaskInstance: etl_local_postgres_pipeline.stage_songs scheduled__2025-07-25T17:00:00+00:00 [running]> on host DESKTOP-9M5T9P5.localdomain
+[2025-07-26T00:54:49.054+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='phuongnt226' AIRFLOW_CTX_DAG_ID='etl_local_postgres_pipeline' AIRFLOW_CTX_TASK_ID='stage_songs' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-25T17:00:00+00:00'
+[2025-07-26T00:54:49.055+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-26T00:54:50.735+0700] {base.py:84} INFO - Using connection ID 'postgres_id' for task execution.
+[2025-07-26T00:54:51.320+0700] {logging_mixin.py:188} INFO - Found 71 song files.
+[2025-07-26T00:54:51.507+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-26T00:54:51.508+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/dags/etl_pipeline_pjt.py", line 59, in stage_songs_to_postgres
+    cur.execute("""
+psycopg2.errors.UndefinedColumn: column "file_path" of relation "loaded_files" does not exist
+LINE 2:                     INSERT INTO loaded_files (file_path)
+                                                      ^
+
+[2025-07-26T00:54:52.247+0700] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_local_postgres_pipeline, task_id=stage_songs, run_id=scheduled__2025-07-25T17:00:00+00:00, execution_date=20250725T170000, start_date=20250725T175440, end_date=20250725T175452
+[2025-07-26T00:54:52.677+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 215 for task stage_songs (column "file_path" of relation "loaded_files" does not exist
+LINE 2:                     INSERT INTO loaded_files (file_path)
+                                                      ^
+; 3098)
+[2025-07-26T00:54:52.715+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-07-26T00:54:53.653+0700] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T00:54:53.711+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

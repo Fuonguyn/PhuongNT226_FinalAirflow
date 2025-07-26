@@ -1,0 +1,92 @@
+[2025-07-26T08:48:25.954+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-26T08:48:27.624+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.stage_songs scheduled__2025-07-25T16:00:00+00:00 [queued]>
+[2025-07-26T08:48:28.115+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.stage_songs scheduled__2025-07-25T16:00:00+00:00 [queued]>
+[2025-07-26T08:48:28.116+0700] {taskinstance.py:2306} INFO - Starting attempt 2 of 5
+[2025-07-26T08:48:35.014+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): stage_songs> on 2025-07-25 16:00:00+00:00
+[2025-07-26T08:48:35.028+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_local_postgres_pipeline', 'stage_songs', 'scheduled__2025-07-25T16:00:00+00:00', '--job-id', '445', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_pjt.py', '--cfg-path', '/tmp/tmpj6w9vu_4']
+[2025-07-26T08:48:35.031+0700] {standard_task_runner.py:91} INFO - Job 445: Subtask stage_songs
+[2025-07-26T08:48:35.031+0700] {logging_mixin.py:188} WARNING - /home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=6182) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T08:48:35.033+0700] {standard_task_runner.py:63} INFO - Started process 6198 to run task
+[2025-07-26T08:48:45.843+0700] {task_command.py:426} INFO - Running <TaskInstance: etl_local_postgres_pipeline.stage_songs scheduled__2025-07-25T16:00:00+00:00 [running]> on host DESKTOP-9M5T9P5.localdomain
+[2025-07-26T08:49:00.518+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='phuongnt226' AIRFLOW_CTX_DAG_ID='etl_local_postgres_pipeline' AIRFLOW_CTX_TASK_ID='stage_songs' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-25T16:00:00+00:00'
+[2025-07-26T08:49:00.519+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-26T08:49:03.243+0700] {base.py:84} INFO - Using connection ID 'postgres_id' for task execution.
+[2025-07-26T08:49:06.501+0700] {logging_mixin.py:188} INFO - Found 71 files in /home/ngtph/airflow/data/song_data
+[2025-07-26T08:49:06.804+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCXB128F4286BD3.json
+[2025-07-26T08:49:07.005+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCIX128F4265903.json
+[2025-07-26T08:49:07.158+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCRU128F423F449.json
+[2025-07-26T08:49:07.215+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCFL128F149BB0D.json
+[2025-07-26T08:49:07.321+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCEC128F426456E.json
+[2025-07-26T08:49:07.412+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCUQ128E0783E2B.json
+[2025-07-26T08:49:07.511+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCKL128F423A778.json
+[2025-07-26T08:49:07.718+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCYE128F934CE1D.json
+[2025-07-26T08:49:07.818+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCEI128F424C983.json
+[2025-07-26T08:49:07.916+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCAJ12903CDFCC2.json
+[2025-07-26T08:49:08.026+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCTK128F934B224.json
+[2025-07-26T08:49:08.127+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/C/TRABCPZ128F4275C32.json
+[2025-07-26T08:49:08.218+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBNP128F932546F.json
+[2025-07-26T08:49:08.335+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBOR128F4286200.json
+[2025-07-26T08:49:08.421+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBOP128F931B50D.json
+[2025-07-26T08:49:08.470+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBJE12903CDB442.json
+[2025-07-26T08:49:08.541+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBTA128F933D304.json
+[2025-07-26T08:49:08.629+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBBV128F42967D7.json
+[2025-07-26T08:49:08.722+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBAM128F429D223.json
+[2025-07-26T08:49:08.839+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBVJ128F92F7EAA.json
+[2025-07-26T08:49:08.927+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBLU128F93349CF.json
+[2025-07-26T08:49:09.025+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBKX128F4285205.json
+[2025-07-26T08:49:09.127+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBZN12903CD9297.json
+[2025-07-26T08:49:09.231+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/B/TRABBXU128F92FEF48.json
+[2025-07-26T08:49:09.331+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAFJ128F42AF24E.json
+[2025-07-26T08:49:09.430+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAFP128F931E9A1.json
+[2025-07-26T08:49:09.538+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAIO128F42938F9.json
+[2025-07-26T08:49:09.730+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAWW128F4250A31.json
+[2025-07-26T08:49:09.831+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAZH128F930419A.json
+[2025-07-26T08:49:09.934+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAXV128F92F6AE3.json
+[2025-07-26T08:49:10.036+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABATO128F42627E9.json
+[2025-07-26T08:49:10.132+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAXL128F424FC50.json
+[2025-07-26T08:49:10.241+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAVQ12903CBF7E0.json
+[2025-07-26T08:49:10.338+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABAXR128F426515F.json
+[2025-07-26T08:49:10.434+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/B/A/TRABACN128F425B784.json
+[2025-07-26T08:49:10.536+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACSL128F93462F4.json
+[2025-07-26T08:49:10.635+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACPE128F421C1B9.json
+[2025-07-26T08:49:10.741+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACQT128F9331780.json
+[2025-07-26T08:49:10.837+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACCG128F92E8A55.json
+[2025-07-26T08:49:10.883+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACHN128F1489601.json
+[2025-07-26T08:49:10.929+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACTB12903CAAF15.json
+[2025-07-26T08:49:11.240+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACER128F4290F96.json
+[2025-07-26T08:49:11.340+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACVS128E078BE39.json
+[2025-07-26T08:49:11.437+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACOW128F933E35F.json
+[2025-07-26T08:49:11.540+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACFV128F935E50B.json
+[2025-07-26T08:49:11.651+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACLV128F427E123.json
+[2025-07-26T08:49:11.748+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACZK128F4243829.json
+[2025-07-26T08:49:11.848+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACIW12903CC0F6D.json
+[2025-07-26T08:49:11.945+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/C/TRAACNS128F14A2DF5.json
+[2025-07-26T08:49:12.244+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABLR128F423B7E3.json
+[2025-07-26T08:49:12.346+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABRB128F9306DD5.json
+[2025-07-26T08:49:12.439+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABVM128F92CA9DC.json
+[2025-07-26T08:49:12.543+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABJV128F1460C49.json
+[2025-07-26T08:49:12.675+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABNV128F425CEE1.json
+[2025-07-26T08:49:12.740+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABDL12903CAABBA.json
+[2025-07-26T08:49:12.872+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABYW128F4244559.json
+[2025-07-26T08:49:12.919+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABYN12903CFD305.json
+[2025-07-26T08:49:13.039+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABXG128F9318EBD.json
+[2025-07-26T08:49:13.143+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABJL12903CDCF1A.json
+[2025-07-26T08:49:13.244+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/B/TRAABCL128F4286650.json
+[2025-07-26T08:49:13.342+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAPK128E0786D96.json
+[2025-07-26T08:49:13.440+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAARJ128F9320760.json
+[2025-07-26T08:49:13.540+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAVO128F93133D4.json
+[2025-07-26T08:49:13.740+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAAW128F429D538.json
+[2025-07-26T08:49:13.841+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAABD128F429CF47.json
+[2025-07-26T08:49:13.940+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAMO128F1481E7F.json
+[2025-07-26T08:49:14.042+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAFD128F92F423A.json
+[2025-07-26T08:49:14.148+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAEF128F4273421.json
+[2025-07-26T08:49:14.243+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAADZ128F9348C2E.json
+[2025-07-26T08:49:14.338+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAMQ128F1460CD3.json
+[2025-07-26T08:49:14.439+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/song_data/A/A/A/TRAAAVG12903CFA543.json
+[2025-07-26T08:49:14.539+0700] {logging_mixin.py:188} INFO - Finished stage_songs_to_postgres
+[2025-07-26T08:49:14.540+0700] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-26T08:49:14.540+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-26T08:49:15.353+0700] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_local_postgres_pipeline, task_id=stage_songs, run_id=scheduled__2025-07-25T16:00:00+00:00, execution_date=20250725T160000, start_date=20250726T014827, end_date=20250726T014915
+[2025-07-26T08:49:19.508+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-26T08:49:22.315+0700] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T08:49:22.510+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

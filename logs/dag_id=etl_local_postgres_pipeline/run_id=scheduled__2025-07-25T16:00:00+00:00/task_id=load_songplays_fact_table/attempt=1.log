@@ -1,0 +1,38 @@
+[2025-07-25T23:08:58.868+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-25T23:08:59.670+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.load_songplays_fact_table scheduled__2025-07-25T16:00:00+00:00 [queued]>
+[2025-07-25T23:08:59.893+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.load_songplays_fact_table scheduled__2025-07-25T16:00:00+00:00 [queued]>
+[2025-07-25T23:08:59.894+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-07-25T23:09:00.353+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_songplays_fact_table> on 2025-07-25 16:00:00+00:00
+[2025-07-25T23:09:00.362+0700] {logging_mixin.py:188} WARNING - /home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1067) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-25T23:09:00.360+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_local_postgres_pipeline', 'load_songplays_fact_table', 'scheduled__2025-07-25T16:00:00+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_pjt.py', '--cfg-path', '/tmp/tmppqm8i60i']
+[2025-07-25T23:09:00.363+0700] {standard_task_runner.py:63} INFO - Started process 1069 to run task
+[2025-07-25T23:09:00.363+0700] {standard_task_runner.py:91} INFO - Job 189: Subtask load_songplays_fact_table
+[2025-07-25T23:09:04.604+0700] {task_command.py:426} INFO - Running <TaskInstance: etl_local_postgres_pipeline.load_songplays_fact_table scheduled__2025-07-25T16:00:00+00:00 [running]> on host DESKTOP-9M5T9P5.localdomain
+[2025-07-25T23:09:09.198+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='phuongnt226' AIRFLOW_CTX_DAG_ID='etl_local_postgres_pipeline' AIRFLOW_CTX_TASK_ID='load_songplays_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-25T16:00:00+00:00'
+[2025-07-25T23:09:09.200+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-25T23:09:09.969+0700] {base.py:84} INFO - Using connection ID 'postgres_id' for task execution.
+[2025-07-25T23:09:10.597+0700] {sql.py:470} INFO - Running statement: 
+        SELECT
+                md5(CAST(events.sessionid AS TEXT) || CAST(events.start_time AS TEXT)) AS songplay_id,
+                events.start_time, 
+                events.userid, 
+                events.level, 
+                songs.song_id,
+                songs.artist_id, 
+                events.sessionid, 
+                events.location, 
+                events.useragent
+                FROM (SELECT TIMESTAMP 'epoch' + ts/1000 * interval '1 second' AS start_time, *
+            FROM staging_events
+            WHERE page='NextSong') events
+            LEFT JOIN staging_songs songs
+            ON events.song = songs.title
+                AND events.artist = songs.artist_name
+                AND events.length = songs.duration
+    , parameters: None
+[2025-07-25T23:09:14.683+0700] {sql.py:479} INFO - Rows affected: 40932
+[2025-07-25T23:09:14.738+0700] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-25T23:09:14.739+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-25T23:09:15.388+0700] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_local_postgres_pipeline, task_id=load_songplays_fact_table, run_id=scheduled__2025-07-25T16:00:00+00:00, execution_date=20250725T160000, start_date=20250725T160859, end_date=20250725T160915
+[2025-07-25T23:09:15.655+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-25T23:09:16.421+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

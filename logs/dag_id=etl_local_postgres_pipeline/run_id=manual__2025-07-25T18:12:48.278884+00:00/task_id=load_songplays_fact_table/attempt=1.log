@@ -1,0 +1,39 @@
+[2025-07-26T06:57:59.296+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-26T06:58:00.040+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.load_songplays_fact_table manual__2025-07-25T18:12:48.278884+00:00 [queued]>
+[2025-07-26T06:58:00.241+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.load_songplays_fact_table manual__2025-07-25T18:12:48.278884+00:00 [queued]>
+[2025-07-26T06:58:00.242+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-07-26T06:58:00.513+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_songplays_fact_table> on 2025-07-25 18:12:48.278884+00:00
+[2025-07-26T06:58:00.521+0700] {logging_mixin.py:188} WARNING - /home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=744) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T06:58:00.519+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_local_postgres_pipeline', 'load_songplays_fact_table', 'manual__2025-07-25T18:12:48.278884+00:00', '--job-id', '292', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_pjt.py', '--cfg-path', '/tmp/tmpj7x1hwvw']
+[2025-07-26T06:58:00.522+0700] {standard_task_runner.py:91} INFO - Job 292: Subtask load_songplays_fact_table
+[2025-07-26T06:58:00.522+0700] {standard_task_runner.py:63} INFO - Started process 751 to run task
+[2025-07-26T06:58:03.341+0700] {task_command.py:426} INFO - Running <TaskInstance: etl_local_postgres_pipeline.load_songplays_fact_table manual__2025-07-25T18:12:48.278884+00:00 [running]> on host DESKTOP-9M5T9P5.localdomain
+[2025-07-26T06:58:09.598+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='phuongnt226' AIRFLOW_CTX_DAG_ID='etl_local_postgres_pipeline' AIRFLOW_CTX_TASK_ID='load_songplays_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T18:12:48.278884+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-25T18:12:48.278884+00:00'
+[2025-07-26T06:58:09.599+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-26T06:58:10.726+0700] {base.py:84} INFO - Using connection ID 'postgres_id' for task execution.
+[2025-07-26T06:58:11.370+0700] {sql.py:470} INFO - Running statement: 
+        SELECT
+                md5(CAST(events.sessionid AS TEXT) || CAST(events.start_time AS TEXT)) AS songplay_id,
+                events.start_time, 
+                events.userid, 
+                events.level, 
+                songs.song_id,
+                songs.artist_id, 
+                events.sessionid, 
+                events.location, 
+                events.useragent
+                FROM (SELECT TIMESTAMP 'epoch' + ts/1000 * interval '1 second' AS start_time, *
+            FROM staging_events
+            WHERE page='NextSong') events
+            LEFT JOIN staging_songs songs
+            ON events.song = songs.title
+                AND events.artist = songs.artist_name
+                AND events.length = songs.duration
+    , parameters: None
+[2025-07-26T06:58:13.342+0700] {sql.py:479} INFO - Rows affected: 13640
+[2025-07-26T06:58:13.413+0700] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-26T06:58:13.413+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-26T06:58:14.183+0700] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_local_postgres_pipeline, task_id=load_songplays_fact_table, run_id=manual__2025-07-25T18:12:48.278884+00:00, execution_date=20250725T181248, start_date=20250725T235800, end_date=20250725T235814
+[2025-07-26T06:58:15.661+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-26T06:58:16.489+0700] {taskinstance.py:3498} INFO - 4 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T06:58:16.534+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

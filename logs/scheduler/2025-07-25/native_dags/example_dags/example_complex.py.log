@@ -1,0 +1,959 @@
+[2025-07-25T15:31:57.731+0700] {processor.py:161} INFO - Started process (PID=7111) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:31:57.732+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:31:57.732+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:31:57.732+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:31:57.741+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:31:57.815+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:31:57.815+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:31:57.821+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:31:57.821+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:31:57.841+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2025-07-25T15:32:52.723+0700] {processor.py:161} INFO - Started process (PID=7169) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:32:52.724+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:32:52.725+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:32:52.724+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:32:52.732+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:32:52.749+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:32:52.749+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:32:52.756+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:32:52.756+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:32:52.773+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.052 seconds
+[2025-07-25T15:33:44.367+0700] {processor.py:161} INFO - Started process (PID=7225) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:33:44.369+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:33:44.369+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:33:44.369+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:33:44.377+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:33:44.396+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:33:44.396+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:33:44.405+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:33:44.405+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:33:44.510+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.146 seconds
+[2025-07-25T15:34:36.731+0700] {processor.py:161} INFO - Started process (PID=7302) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:34:36.733+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:34:36.733+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:34:36.733+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:34:36.741+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:34:36.757+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:34:36.757+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:34:36.764+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:34:36.764+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:34:36.782+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.053 seconds
+[2025-07-25T15:35:21.369+0700] {processor.py:161} INFO - Started process (PID=7351) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:35:21.370+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:35:21.371+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:35:21.370+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:35:21.379+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:35:21.400+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:35:21.400+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:35:21.409+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:35:21.408+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:35:21.426+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2025-07-25T15:36:23.222+0700] {processor.py:161} INFO - Started process (PID=7421) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:36:23.225+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:36:23.225+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:36:23.225+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:36:23.234+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:36:23.255+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:36:23.254+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:36:23.264+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:36:23.264+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:36:23.287+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.068 seconds
+[2025-07-25T15:41:08.415+0700] {processor.py:161} INFO - Started process (PID=7752) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:41:08.416+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:41:08.417+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:41:08.416+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:41:08.426+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:41:10.326+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:41:10.326+0700] {override.py:1769} INFO - Created Permission View: can read on DAG:example_complex
+[2025-07-25T15:41:10.946+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:41:10.945+0700] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-07-25T15:41:11.394+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:41:11.393+0700] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-07-25T15:41:11.394+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:41:11.394+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:41:11.542+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:41:11.542+0700] {dag.py:3058} INFO - Creating ORM DAG for example_complex
+[2025-07-25T15:41:11.543+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:41:11.543+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:41:12.472+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 4.060 seconds
+[2025-07-25T15:55:04.549+0700] {processor.py:161} INFO - Started process (PID=8372) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:55:04.551+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:55:04.552+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:55:04.551+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:55:04.561+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:55:06.768+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:55:06.768+0700] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-07-25T15:55:07.327+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:55:07.326+0700] {override.py:1769} INFO - Created Permission View: can read on DAG:example_complex
+[2025-07-25T15:55:07.897+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:55:07.896+0700] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-07-25T15:55:07.897+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:55:07.897+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:55:08.181+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:55:08.181+0700] {dag.py:3058} INFO - Creating ORM DAG for example_complex
+[2025-07-25T15:55:08.182+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:55:08.181+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:55:09.326+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 4.779 seconds
+[2025-07-25T15:58:39.105+0700] {processor.py:161} INFO - Started process (PID=8925) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:58:39.109+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T15:58:39.111+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:58:39.109+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:58:39.124+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T15:58:43.169+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:58:43.168+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T15:58:43.238+0700] {logging_mixin.py:188} INFO - [2025-07-25T15:58:43.237+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T15:58:44.409+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.635 seconds
+[2025-07-25T16:00:03.312+0700] {processor.py:161} INFO - Started process (PID=9205) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:00:03.315+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:00:03.316+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:00:03.315+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:00:03.324+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:00:04.395+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:00:04.395+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:00:04.526+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:00:04.526+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:00:05.334+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.025 seconds
+[2025-07-25T16:02:57.123+0700] {processor.py:161} INFO - Started process (PID=9654) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:02:57.125+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:02:57.126+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:02:57.125+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:02:57.134+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:02:59.327+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:02:59.327+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:02:59.413+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:02:59.413+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:03:00.272+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.152 seconds
+[2025-07-25T16:04:14.171+0700] {processor.py:161} INFO - Started process (PID=9947) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:04:14.173+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:04:14.174+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:04:14.174+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:04:14.188+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:04:15.617+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:04:15.616+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:04:15.703+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:04:15.703+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:04:16.865+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.700 seconds
+[2025-07-25T16:05:51.573+0700] {processor.py:161} INFO - Started process (PID=10270) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:05:51.575+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:05:51.575+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:05:51.575+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:05:51.585+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:05:52.644+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:05:52.644+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:05:52.692+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:05:52.692+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:05:53.388+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 1.818 seconds
+[2025-07-25T16:07:30.495+0700] {processor.py:161} INFO - Started process (PID=10568) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:07:30.496+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:07:30.496+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:07:30.496+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:07:30.506+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:07:31.745+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:07:31.745+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:07:31.841+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:07:31.840+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:07:32.737+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.246 seconds
+[2025-07-25T16:09:05.066+0700] {processor.py:161} INFO - Started process (PID=10889) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:09:05.068+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:09:05.069+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:09:05.069+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:09:05.083+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:09:06.279+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:09:06.279+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:09:06.338+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:09:06.338+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:09:07.174+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.112 seconds
+[2025-07-25T16:10:39.254+0700] {processor.py:161} INFO - Started process (PID=11357) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:10:39.256+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:10:39.257+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:10:39.257+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:10:39.271+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:10:40.928+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:10:40.928+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:10:40.987+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:10:40.986+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:10:41.781+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.532 seconds
+[2025-07-25T16:10:44.034+0700] {processor.py:161} INFO - Started process (PID=11364) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:10:44.034+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:10:44.035+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:10:44.035+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:10:44.043+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:10:46.040+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:10:46.040+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:10:46.111+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:10:46.111+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:10:46.905+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.874 seconds
+[2025-07-25T16:12:04.844+0700] {processor.py:161} INFO - Started process (PID=11661) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:12:04.846+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:12:04.846+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:12:04.846+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:12:04.854+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:12:07.570+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:12:07.570+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:12:07.628+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:12:07.628+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:12:08.618+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.779 seconds
+[2025-07-25T16:12:17.423+0700] {processor.py:161} INFO - Started process (PID=11679) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:12:17.424+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:12:17.425+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:12:17.424+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:12:17.434+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:12:18.506+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:12:18.505+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:12:18.563+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:12:18.563+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:12:19.347+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 1.928 seconds
+[2025-07-25T16:13:50.930+0700] {processor.py:161} INFO - Started process (PID=11976) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:13:50.931+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:13:50.932+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:50.932+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:13:50.940+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:13:51.191+0700] {processor.py:161} INFO - Started process (PID=11977) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:13:51.193+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:13:51.194+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:51.194+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:13:51.204+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:13:52.824+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:52.823+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:13:52.889+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:52.889+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:13:53.042+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:53.042+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:13:53.172+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:53.172+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:13:53.533+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:53.531+0700] {dagbag.py:647} ERROR - Failed to write serialized DAG: /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 635, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 157, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 13, 52, 468990, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:13:53.533+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:13:53.533+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:13:53.534+0700] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 859, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 895, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 657, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 673, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dag.py", line 3048, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 13, 52, 468990, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:13:53.799+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.872 seconds
+[2025-07-25T16:15:34.618+0700] {processor.py:161} INFO - Started process (PID=12150) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:15:34.619+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:15:34.620+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:15:34.619+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:15:34.630+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:15:35.138+0700] {processor.py:161} INFO - Started process (PID=12153) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:15:35.139+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:15:35.139+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:15:35.139+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:15:35.147+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:15:35.920+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:15:35.920+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:15:35.990+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:15:35.990+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:15:36.385+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:15:36.385+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:15:36.464+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:15:36.463+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:15:36.828+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.213 seconds
+[2025-07-25T16:15:37.251+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.116 seconds
+[2025-07-25T16:17:00.614+0700] {processor.py:161} INFO - Started process (PID=12314) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:17:00.615+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:17:00.616+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:00.616+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:17:00.623+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:17:02.117+0700] {processor.py:161} INFO - Started process (PID=12319) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:17:02.119+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:17:02.120+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:02.119+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:17:02.127+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:17:03.455+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:03.455+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:17:03.518+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:03.518+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:17:04.137+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:04.137+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:17:04.202+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:04.202+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:17:04.551+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.940 seconds
+[2025-07-25T16:17:04.676+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:04.673+0700] {dagbag.py:647} ERROR - Failed to write serialized DAG: /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 635, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 157, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"tags": ["example", "example2", "example3"], "_dag_id": "example_complex", "_task_group": {"_group_id": null, "prefix_group_ ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 17, 3, 391698, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:17:04.677+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:17:04.676+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:17:04.677+0700] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 859, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 895, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 657, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 673, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dag.py", line 3048, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"tags": ["example", "example2", "example3"], "_dag_id": "example_complex", "_task_group": {"_group_id": null, "prefix_group_ ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 17, 3, 391698, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:18:45.519+0700] {processor.py:161} INFO - Started process (PID=12503) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:18:45.521+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:18:45.522+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:18:45.521+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:18:45.531+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:18:47.248+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:18:47.248+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:18:47.310+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:18:47.310+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:18:48.197+0700] {processor.py:161} INFO - Started process (PID=12507) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:18:48.198+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:18:48.199+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:18:48.198+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:18:48.208+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:18:48.332+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.817 seconds
+[2025-07-25T16:18:50.087+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:18:50.086+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:18:50.142+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:18:50.142+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:18:50.981+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.787 seconds
+[2025-07-25T16:20:19.071+0700] {processor.py:161} INFO - Started process (PID=12664) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:20:19.072+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:20:19.073+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:20:19.073+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:20:19.080+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:20:20.264+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:20:20.264+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:20:20.327+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:20:20.326+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:20:21.207+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.139 seconds
+[2025-07-25T16:20:21.388+0700] {processor.py:161} INFO - Started process (PID=12667) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:20:21.388+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:20:21.389+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:20:21.389+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:20:21.396+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:20:22.595+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:20:22.595+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:20:22.655+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:20:22.655+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:20:23.533+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.149 seconds
+[2025-07-25T16:21:53.496+0700] {processor.py:161} INFO - Started process (PID=12830) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:21:53.499+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:21:53.499+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:21:53.499+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:21:53.508+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:21:55.260+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:21:55.260+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:21:55.321+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:21:55.320+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:21:56.270+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.777 seconds
+[2025-07-25T16:21:57.104+0700] {processor.py:161} INFO - Started process (PID=12840) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:21:57.105+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:21:57.105+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:21:57.105+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:21:57.114+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:21:59.080+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:21:59.080+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:21:59.142+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:21:59.142+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:21:59.973+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.872 seconds
+[2025-07-25T16:23:45.724+0700] {processor.py:161} INFO - Started process (PID=13029) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:23:45.727+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:23:45.728+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:45.728+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:23:45.735+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:23:46.112+0700] {processor.py:161} INFO - Started process (PID=13030) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:23:46.113+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:23:46.113+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:46.113+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:23:46.123+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:23:47.653+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:47.653+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:23:47.715+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:47.714+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:23:48.032+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:48.032+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:23:48.097+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:48.097+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:23:48.523+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:48.522+0700] {dagbag.py:647} ERROR - Failed to write serialized DAG: /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 635, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 157, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 23, 47, 330673, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:23:48.524+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:23:48.524+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:23:48.524+0700] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 859, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 895, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 657, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 673, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dag.py", line 3048, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 23, 47, 330673, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:23:48.728+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.007 seconds
+[2025-07-25T16:25:59.096+0700] {processor.py:161} INFO - Started process (PID=13232) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:25:59.098+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:25:59.099+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:25:59.099+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:25:59.116+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:25:59.629+0700] {processor.py:161} INFO - Started process (PID=13233) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:25:59.630+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:25:59.631+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:25:59.630+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:25:59.640+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:26:01.046+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:26:01.046+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:26:01.117+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:26:01.116+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:26:01.373+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:26:01.373+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:26:01.446+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:26:01.445+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:26:02.105+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.480 seconds
+[2025-07-25T16:26:02.551+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.460 seconds
+[2025-07-25T16:28:06.118+0700] {processor.py:161} INFO - Started process (PID=13401) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:28:06.122+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:28:06.122+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:06.122+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:28:06.131+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:28:06.159+0700] {processor.py:161} INFO - Started process (PID=13402) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:28:06.160+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:28:06.160+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:06.160+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:28:06.168+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:28:11.018+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:11.017+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:28:11.247+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:11.247+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:28:12.154+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:12.153+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:28:12.307+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:12.307+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:28:13.271+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:13.268+0700] {dagbag.py:647} ERROR - Failed to write serialized DAG: /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 635, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 157, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 28, 10, 114927, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:28:13.271+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:28:13.271+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:28:13.272+0700] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 859, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 895, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 657, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 673, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dag.py", line 3048, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 28, 10, 114927, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:28:14.327+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 8.171 seconds
+[2025-07-25T16:30:10.576+0700] {processor.py:161} INFO - Started process (PID=13606) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:30:10.579+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:30:10.580+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:30:10.580+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:30:10.592+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:30:12.084+0700] {processor.py:161} INFO - Started process (PID=13609) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:30:12.085+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:30:12.085+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:30:12.085+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:30:12.096+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:30:12.245+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:30:12.245+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:30:12.299+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:30:12.299+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:30:13.066+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:30:13.065+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:30:13.117+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:30:13.117+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:30:13.192+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.620 seconds
+[2025-07-25T16:30:13.912+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 1.831 seconds
+[2025-07-25T16:32:13.148+0700] {processor.py:161} INFO - Started process (PID=13777) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:32:13.151+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:32:13.152+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:32:13.152+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:32:13.160+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:32:16.564+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:32:16.564+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:32:16.679+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:32:16.679+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:32:17.412+0700] {processor.py:161} INFO - Started process (PID=13781) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:32:17.413+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:32:17.414+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:32:17.413+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:32:17.422+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:32:17.951+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 4.805 seconds
+[2025-07-25T16:32:18.752+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:32:18.752+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:32:18.822+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:32:18.822+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:32:19.819+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.409 seconds
+[2025-07-25T16:34:06.157+0700] {processor.py:161} INFO - Started process (PID=13959) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:34:06.160+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:34:06.161+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:34:06.160+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:34:06.168+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:34:08.337+0700] {processor.py:161} INFO - Started process (PID=13961) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:34:08.338+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:34:08.338+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:34:08.338+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:34:08.347+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:34:08.990+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:34:08.990+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:34:09.060+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:34:09.059+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:34:09.456+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:34:09.456+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:34:09.532+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:34:09.532+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:34:10.203+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 4.050 seconds
+[2025-07-25T16:34:10.352+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.018 seconds
+[2025-07-25T16:35:39.223+0700] {processor.py:161} INFO - Started process (PID=14117) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:35:39.226+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:35:39.227+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:35:39.226+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:35:39.235+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:35:40.446+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:35:40.446+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:35:40.521+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:35:40.521+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:35:42.073+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.852 seconds
+[2025-07-25T16:35:46.879+0700] {processor.py:161} INFO - Started process (PID=14127) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:35:46.882+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:35:46.883+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:35:46.883+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:35:46.890+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:35:48.918+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:35:48.918+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:35:48.980+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:35:48.980+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:35:49.828+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.951 seconds
+[2025-07-25T16:37:14.901+0700] {processor.py:161} INFO - Started process (PID=14273) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:37:14.904+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:37:14.905+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:14.905+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:37:14.912+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:37:15.277+0700] {processor.py:161} INFO - Started process (PID=14274) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:37:15.278+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:37:15.278+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:15.278+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:37:15.286+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:37:16.818+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:16.818+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:37:19.472+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:19.472+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:37:19.593+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:19.593+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:37:19.881+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:19.880+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:37:20.595+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.106 seconds
+[2025-07-25T16:37:20.656+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:20.653+0700] {dagbag.py:647} ERROR - Failed to write serialized DAG: /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 635, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 157, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 37, 16, 405724, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:37:20.657+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:37:20.657+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:37:20.658+0700] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 859, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 895, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 657, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 673, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dag.py", line 3048, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(example_complex) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(data_compressed)s, %(last_updated)s, %(dag_hash)s, %(processor_subdir)s)]
+[parameters: {'dag_id': 'example_complex', 'fileloc': '/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py', 'fileloc_hash': 49349935368082306, 'data': '{"__version": 1, "dag": {"start_date": 1609459200.0, "fileloc": "/home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/e ... (23972 characters truncated) ... ask_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "echo update_tag_template_field"}], "dag_dependencies": [], "params": {}}}', 'data_compressed': None, 'last_updated': datetime.datetime(2025, 7, 25, 9, 37, 16, 405724, tzinfo=Timezone('UTC')), 'dag_hash': 'e18735b783ff7623c6498e602a54c603', 'processor_subdir': '/home/ngtph/airflow/dags'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2025-07-25T16:38:52.771+0700] {processor.py:161} INFO - Started process (PID=14436) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:38:52.772+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:38:52.773+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:38:52.773+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:38:52.783+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:38:54.504+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:38:54.504+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:38:54.560+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:38:54.560+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:38:55.473+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.706 seconds
+[2025-07-25T16:39:04.141+0700] {processor.py:161} INFO - Started process (PID=14451) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:39:04.142+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:39:04.143+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:39:04.143+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:39:04.152+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:39:06.254+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:39:06.254+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:39:06.363+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:39:06.363+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:39:07.331+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.193 seconds
+[2025-07-25T16:40:23.190+0700] {processor.py:161} INFO - Started process (PID=14599) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:40:23.192+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:40:23.192+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:40:23.192+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:40:23.200+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:40:24.322+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:40:24.322+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:40:24.376+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:40:24.376+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:40:25.110+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 1.922 seconds
+[2025-07-25T16:40:36.419+0700] {processor.py:161} INFO - Started process (PID=14618) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:40:36.420+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:40:36.421+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:40:36.421+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:40:36.429+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:40:38.459+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:40:38.459+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:40:38.522+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:40:38.521+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:40:39.658+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.242 seconds
+[2025-07-25T16:41:55.055+0700] {processor.py:161} INFO - Started process (PID=14748) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:41:55.057+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:41:55.058+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:41:55.058+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:41:55.065+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:41:57.070+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:41:57.070+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:41:57.141+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:41:57.141+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:41:58.299+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.247 seconds
+[2025-07-25T16:42:06.092+0700] {processor.py:161} INFO - Started process (PID=14769) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:42:06.093+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:42:06.094+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:42:06.094+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:42:06.103+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:42:07.350+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:42:07.350+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:42:07.424+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:42:07.424+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:42:08.470+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.381 seconds
+[2025-07-25T16:43:44.466+0700] {processor.py:161} INFO - Started process (PID=14933) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:43:44.467+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:43:44.468+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:43:44.468+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:43:44.479+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:43:46.343+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:43:46.343+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:43:46.403+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:43:46.403+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:43:47.417+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.954 seconds
+[2025-07-25T16:43:49.605+0700] {processor.py:161} INFO - Started process (PID=14939) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:43:49.606+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:43:49.608+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:43:49.607+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:43:49.615+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:43:51.852+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:43:51.851+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:43:51.923+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:43:51.923+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:43:52.958+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.355 seconds
+[2025-07-25T16:45:24.839+0700] {processor.py:161} INFO - Started process (PID=15099) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:45:24.840+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:45:24.841+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:45:24.841+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:45:24.849+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:45:26.862+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:45:26.862+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:45:26.933+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:45:26.932+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:45:27.769+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.932 seconds
+[2025-07-25T16:47:14.748+0700] {processor.py:161} INFO - Started process (PID=15210) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:47:14.751+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:47:14.752+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:47:14.752+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:47:14.762+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:47:17.375+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:47:17.375+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:47:17.429+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:47:17.429+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:47:18.318+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.574 seconds
+[2025-07-25T16:50:05.639+0700] {processor.py:161} INFO - Started process (PID=15349) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:50:05.644+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:50:05.645+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:50:05.644+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:50:05.656+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:50:07.413+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:50:07.412+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:50:07.510+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:50:07.510+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:50:08.907+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.274 seconds
+[2025-07-25T16:52:44.766+0700] {processor.py:161} INFO - Started process (PID=15473) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:52:44.768+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:52:44.770+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:52:44.770+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:52:44.786+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:52:49.123+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:52:49.123+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:52:49.220+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:52:49.219+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:52:50.606+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.153 seconds
+[2025-07-25T16:55:19.695+0700] {processor.py:161} INFO - Started process (PID=15608) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:55:19.698+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:55:19.700+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:55:19.699+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:55:19.727+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:55:22.384+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:55:22.384+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:55:22.505+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:55:22.504+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:55:23.658+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.973 seconds
+[2025-07-25T16:57:20.695+0700] {processor.py:161} INFO - Started process (PID=15772) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:57:20.698+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:57:20.700+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:57:20.699+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:57:20.722+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:57:22.888+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:57:22.887+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:57:22.964+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:57:22.963+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:57:24.165+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.480 seconds
+[2025-07-25T16:59:34.061+0700] {processor.py:161} INFO - Started process (PID=15918) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:59:34.064+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T16:59:34.066+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:59:34.066+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:59:34.090+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T16:59:35.838+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:59:35.837+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T16:59:35.899+0700] {logging_mixin.py:188} INFO - [2025-07-25T16:59:35.899+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T16:59:36.778+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.726 seconds
+[2025-07-25T17:01:22.989+0700] {processor.py:161} INFO - Started process (PID=16052) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:01:22.990+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T17:01:22.991+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:01:22.991+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:01:22.998+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:01:24.271+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:01:24.270+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T17:01:24.353+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:01:24.352+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T17:01:25.401+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.416 seconds
+[2025-07-25T17:03:23.639+0700] {processor.py:161} INFO - Started process (PID=16152) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:03:23.642+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T17:03:23.644+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:03:23.643+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:03:23.668+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:03:27.418+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:03:27.417+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T17:03:27.505+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:03:27.504+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T17:03:28.780+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 5.149 seconds
+[2025-07-25T17:05:43.472+0700] {processor.py:161} INFO - Started process (PID=16320) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:05:43.477+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T17:05:43.479+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:05:43.478+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:05:43.507+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:05:45.400+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:05:45.400+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T17:05:45.470+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:05:45.468+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T17:05:46.757+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.296 seconds
+[2025-07-25T17:07:07.862+0700] {processor.py:161} INFO - Started process (PID=16403) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:07:07.864+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T17:07:07.866+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:07:07.866+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:07:07.891+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:07:10.084+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:07:10.084+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T17:07:10.260+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:07:10.260+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T17:07:11.503+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.652 seconds
+[2025-07-25T17:09:21.093+0700] {processor.py:161} INFO - Started process (PID=16541) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:09:21.094+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T17:09:21.095+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:09:21.095+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:09:21.122+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:09:23.419+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:09:23.419+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T17:09:23.490+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:09:23.489+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T17:09:24.511+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 3.423 seconds
+[2025-07-25T17:10:50.066+0700] {processor.py:161} INFO - Started process (PID=16631) to work on /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:10:50.069+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-07-25T17:10:50.072+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:10:50.071+0700] {dagbag.py:538} INFO - Filling up the DagBag from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:10:50.100+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-07-25T17:10:51.429+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:10:51.428+0700] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T17:10:51.523+0700] {logging_mixin.py:188} INFO - [2025-07-25T17:10:51.523+0700] {dag.py:3823} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-07-25T17:10:52.432+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/airflow_venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 2.374 seconds

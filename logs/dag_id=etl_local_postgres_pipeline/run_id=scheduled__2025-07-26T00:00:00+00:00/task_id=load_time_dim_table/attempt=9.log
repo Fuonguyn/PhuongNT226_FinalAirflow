@@ -1,0 +1,62 @@
+[2025-07-26T08:16:07.689+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-26T08:16:08.546+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.load_time_dim_table scheduled__2025-07-26T00:00:00+00:00 [queued]>
+[2025-07-26T08:16:08.782+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.load_time_dim_table scheduled__2025-07-26T00:00:00+00:00 [queued]>
+[2025-07-26T08:16:08.782+0700] {taskinstance.py:2306} INFO - Starting attempt 9 of 10
+[2025-07-26T08:16:09.615+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_time_dim_table> on 2025-07-26 00:00:00+00:00
+[2025-07-26T08:16:09.624+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_local_postgres_pipeline', 'load_time_dim_table', 'scheduled__2025-07-26T00:00:00+00:00', '--job-id', '404', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_pjt.py', '--cfg-path', '/tmp/tmpxfxx0dxp']
+[2025-07-26T08:16:09.626+0700] {standard_task_runner.py:91} INFO - Job 404: Subtask load_time_dim_table
+[2025-07-26T08:16:09.629+0700] {logging_mixin.py:188} WARNING - /home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=5642) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T08:16:09.630+0700] {standard_task_runner.py:63} INFO - Started process 5644 to run task
+[2025-07-26T08:16:12.449+0700] {task_command.py:426} INFO - Running <TaskInstance: etl_local_postgres_pipeline.load_time_dim_table scheduled__2025-07-26T00:00:00+00:00 [running]> on host DESKTOP-9M5T9P5.localdomain
+[2025-07-26T08:16:16.195+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='phuongnt226' AIRFLOW_CTX_DAG_ID='etl_local_postgres_pipeline' AIRFLOW_CTX_TASK_ID='load_time_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='9' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-26T00:00:00+00:00'
+[2025-07-26T08:16:16.196+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-26T08:16:17.056+0700] {base.py:84} INFO - Using connection ID 'postgres_id' for task execution.
+[2025-07-26T08:16:17.717+0700] {sql.py:470} INFO - Running statement: 
+    INSERT INTO time (start_time, hour, day, week, month, year, weekday)
+    SELECT 
+        start_time, 
+        EXTRACT(hour FROM start_time), 
+        EXTRACT(day FROM start_time), 
+        EXTRACT(week FROM start_time), 
+        EXTRACT(month FROM start_time), 
+        EXTRACT(year FROM start_time), 
+        EXTRACT(dow FROM start_time)
+    FROM songplays
+, parameters: None
+[2025-07-26T08:16:17.852+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-26T08:16:17.853+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/dags/etl_pipeline_pjt.py", line 106, in load_time_table
+    execute_sql(sql_queries.SqlQueries.time_table_insert)
+  File "/home/ngtph/airflow/dags/etl_pipeline_pjt.py", line 17, in execute_sql
+    result = hook.run(sql_statement)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 418, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 475, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "time_pkey"
+DETAIL:  Key (start_time)=(2018-11-15 18:55:04) already exists.
+
+[2025-07-26T08:16:18.694+0700] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_local_postgres_pipeline, task_id=load_time_dim_table, run_id=scheduled__2025-07-26T00:00:00+00:00, execution_date=20250726T000000, start_date=20250726T011608, end_date=20250726T011618
+[2025-07-26T08:16:18.930+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 404 for task load_time_dim_table (duplicate key value violates unique constraint "time_pkey"
+DETAIL:  Key (start_time)=(2018-11-15 18:55:04) already exists.
+; 5644)
+[2025-07-26T08:16:18.956+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-07-26T08:16:20.250+0700] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T08:16:20.298+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

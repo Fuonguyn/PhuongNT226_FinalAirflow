@@ -1,0 +1,51 @@
+[2025-07-26T07:36:47.850+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-26T07:36:48.592+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.stage_events scheduled__2025-07-26T00:00:00+00:00 [queued]>
+[2025-07-26T07:36:48.773+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_postgres_pipeline.stage_events scheduled__2025-07-26T00:00:00+00:00 [queued]>
+[2025-07-26T07:36:48.774+0700] {taskinstance.py:2306} INFO - Starting attempt 3 of 6
+[2025-07-26T07:36:48.956+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): stage_events> on 2025-07-26 00:00:00+00:00
+[2025-07-26T07:36:48.967+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_local_postgres_pipeline', 'stage_events', 'scheduled__2025-07-26T00:00:00+00:00', '--job-id', '350', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_pjt.py', '--cfg-path', '/tmp/tmpwf0eigku']
+[2025-07-26T07:36:48.970+0700] {standard_task_runner.py:91} INFO - Job 350: Subtask stage_events
+[2025-07-26T07:36:48.970+0700] {logging_mixin.py:188} WARNING - /home/ngtph/airflow/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1735) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T07:36:48.971+0700] {standard_task_runner.py:63} INFO - Started process 1738 to run task
+[2025-07-26T07:36:51.416+0700] {task_command.py:426} INFO - Running <TaskInstance: etl_local_postgres_pipeline.stage_events scheduled__2025-07-26T00:00:00+00:00 [running]> on host DESKTOP-9M5T9P5.localdomain
+[2025-07-26T07:36:57.632+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='phuongnt226' AIRFLOW_CTX_DAG_ID='etl_local_postgres_pipeline' AIRFLOW_CTX_TASK_ID='stage_events' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-26T00:00:00+00:00'
+[2025-07-26T07:36:57.633+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-26T07:36:58.491+0700] {base.py:84} INFO - Using connection ID 'postgres_id' for task execution.
+[2025-07-26T07:36:59.076+0700] {logging_mixin.py:188} INFO - Found 30 files in /home/ngtph/airflow/data/log_data
+[2025-07-26T07:36:59.168+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-08-events.json
+[2025-07-26T07:36:59.216+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-15-events.json
+[2025-07-26T07:36:59.262+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-07-events.json
+[2025-07-26T07:36:59.308+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-17-events.json
+[2025-07-26T07:36:59.354+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-06-events.json
+[2025-07-26T07:36:59.400+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-29-events.json
+[2025-07-26T07:36:59.447+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-03-events.json
+[2025-07-26T07:36:59.509+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-25-events.json
+[2025-07-26T07:36:59.553+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-12-events.json
+[2025-07-26T07:36:59.599+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-19-events.json
+[2025-07-26T07:36:59.644+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-24-events.json
+[2025-07-26T07:36:59.692+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-16-events.json
+[2025-07-26T07:36:59.739+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-28-events.json
+[2025-07-26T07:36:59.785+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-26-events.json
+[2025-07-26T07:36:59.842+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-23-events.json
+[2025-07-26T07:36:59.888+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-05-events.json
+[2025-07-26T07:36:59.935+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-18-events.json
+[2025-07-26T07:36:59.981+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-14-events.json
+[2025-07-26T07:37:00.027+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-27-events.json
+[2025-07-26T07:37:00.081+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-11-events.json
+[2025-07-26T07:37:00.128+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-22-events.json
+[2025-07-26T07:37:00.173+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-01-events.json
+[2025-07-26T07:37:00.219+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-09-events.json
+[2025-07-26T07:37:00.277+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-04-events.json
+[2025-07-26T07:37:00.323+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-21-events.json
+[2025-07-26T07:37:00.369+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-13-events.json
+[2025-07-26T07:37:00.418+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-20-events.json
+[2025-07-26T07:37:00.465+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-02-events.json
+[2025-07-26T07:37:00.511+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-10-events.json
+[2025-07-26T07:37:00.557+0700] {logging_mixin.py:188} INFO - Skipped (already processed): /home/ngtph/airflow/data/log_data/2018-11-30-events.json
+[2025-07-26T07:37:00.603+0700] {logging_mixin.py:188} INFO - Finished stage_events_to_postgres
+[2025-07-26T07:37:00.604+0700] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-26T07:37:00.605+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-26T07:37:01.395+0700] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_local_postgres_pipeline, task_id=stage_events, run_id=scheduled__2025-07-26T00:00:00+00:00, execution_date=20250726T000000, start_date=20250726T003648, end_date=20250726T003701
+[2025-07-26T07:37:02.527+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-26T07:37:03.453+0700] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T07:37:03.510+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
