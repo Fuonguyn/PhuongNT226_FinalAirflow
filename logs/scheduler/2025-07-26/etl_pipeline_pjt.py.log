@@ -1857,3 +1857,34 @@ ModuleNotFoundError: No module named 'sql_queries'
 [2025-07-26T09:26:17.109+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/dags/etl_pipeline_pjt.py for tasks to queue
 [2025-07-26T09:26:17.109+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:26:17.109+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
 [2025-07-26T09:26:17.118+0700] {processor.py:840} INFO - DAG(s) 'etl_local_postgres_pipeline' retrieved from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:26:18.483+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:26:18.483+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-26T09:26:18.663+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:26:18.662+0700] {dag.py:3954} INFO - Setting next_dagrun for etl_local_postgres_pipeline to 2025-07-26 03:00:00+00:00, run_after=2025-07-26 03:00:00+00:00
+[2025-07-26T09:26:19.468+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/dags/etl_pipeline_pjt.py took 2.366 seconds
+[2025-07-26T09:26:49.981+0700] {processor.py:161} INFO - Started process (PID=7635) to work on /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:26:49.982+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/dags/etl_pipeline_pjt.py for tasks to queue
+[2025-07-26T09:26:49.982+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:26:49.982+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:26:49.994+0700] {processor.py:840} INFO - DAG(s) 'etl_local_postgres_pipeline' retrieved from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:26:52.325+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:26:52.325+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-26T09:26:52.515+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:26:52.514+0700] {dag.py:3954} INFO - Setting next_dagrun for etl_local_postgres_pipeline to 2025-07-26 03:00:00+00:00, run_after=2025-07-26 03:00:00+00:00
+[2025-07-26T09:26:53.467+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/dags/etl_pipeline_pjt.py took 3.492 seconds
+[2025-07-26T09:27:23.824+0700] {processor.py:161} INFO - Started process (PID=7641) to work on /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:27:23.826+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/dags/etl_pipeline_pjt.py for tasks to queue
+[2025-07-26T09:27:23.829+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:27:23.828+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:27:23.849+0700] {processor.py:840} INFO - DAG(s) 'etl_local_postgres_pipeline' retrieved from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:27:25.247+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:27:25.246+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-26T09:27:25.440+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:27:25.440+0700] {dag.py:3954} INFO - Setting next_dagrun for etl_local_postgres_pipeline to 2025-07-26 03:00:00+00:00, run_after=2025-07-26 03:00:00+00:00
+[2025-07-26T09:27:26.347+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/dags/etl_pipeline_pjt.py took 2.535 seconds
+[2025-07-26T09:27:56.701+0700] {processor.py:161} INFO - Started process (PID=7783) to work on /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:27:56.703+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/dags/etl_pipeline_pjt.py for tasks to queue
+[2025-07-26T09:27:56.704+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:27:56.703+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:27:56.720+0700] {processor.py:840} INFO - DAG(s) 'etl_local_postgres_pipeline' retrieved from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:27:58.164+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:27:58.163+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-26T09:27:58.396+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:27:58.395+0700] {dag.py:3954} INFO - Setting next_dagrun for etl_local_postgres_pipeline to 2025-07-26 03:00:00+00:00, run_after=2025-07-26 03:00:00+00:00
+[2025-07-26T09:27:59.482+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/dags/etl_pipeline_pjt.py took 2.802 seconds
+[2025-07-26T09:28:29.572+0700] {processor.py:161} INFO - Started process (PID=7810) to work on /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:28:29.575+0700] {processor.py:830} INFO - Processing file /home/ngtph/airflow/dags/etl_pipeline_pjt.py for tasks to queue
+[2025-07-26T09:28:29.576+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:28:29.576+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:28:29.584+0700] {processor.py:840} INFO - DAG(s) 'etl_local_postgres_pipeline' retrieved from /home/ngtph/airflow/dags/etl_pipeline_pjt.py
+[2025-07-26T09:28:30.923+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:28:30.923+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-26T09:28:31.110+0700] {logging_mixin.py:188} INFO - [2025-07-26T09:28:31.110+0700] {dag.py:3954} INFO - Setting next_dagrun for etl_local_postgres_pipeline to 2025-07-26 03:00:00+00:00, run_after=2025-07-26 03:00:00+00:00
+[2025-07-26T09:28:32.409+0700] {processor.py:183} INFO - Processing /home/ngtph/airflow/dags/etl_pipeline_pjt.py took 2.842 seconds
