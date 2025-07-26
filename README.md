@@ -70,5 +70,7 @@
 1. Run Airflow
 `airflow scheduler`
 `airflow webserver --port 8080`
-2. Trigger DAG via Airflow UI (etl_local_postgres_dag.py)
+2. Trigger DAG via Airflow UI (etl_local_postgres_dag.py) on the [http://localhost:8080](http://localhost:8080), then log in, and turn on the DAG `etl_local_postgres_pipeline`
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b1da725-200a-48cd-b5d6-889721ade9e0" />
 
